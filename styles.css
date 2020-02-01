@@ -12,12 +12,14 @@ body {
   height: 100vh;
 }
 #screen {
+  font-size: 35px;
   display: block;
   margin: 0 auto;
   width: 97%;
   height: 10vh;
 }
 #screenShow {
+  font-size: 25px;
   display: block;
   width: 30%;
   margin-left: 1%;
@@ -29,6 +31,7 @@ body {
   display: none;
 }
 #lastResult {
+  font-size: 25px;
   display: block;
   margin: 0 auto;
   width: 97%;
@@ -40,10 +43,11 @@ display: block;
 margin: 0 auto;
 }
 button {
+  font-size: 35px;
   margin: 0 auto 0;
   height: 9vh;
   margin: 1px;
-  width: 31%;
+  width: 32.5%;
   display: inline-block;
   border: 2px solid rgb(0, 0, 0, 0);
   background: rgb(2, 0, 36);
@@ -58,4 +62,49 @@ button:hover {
 }
 button:active {
   transform: scale(0.95);
+}
+@media all and (max-width: 1000px) {
+  .container {
+    width: 80vh
+      padding: 10px 0;
+  }
+  button {
+    font-size: 30px;
+    width: 30%;
+  }
+  #screen {
+    height: 6vh;
+    font-size: 30px;
+  }
+  #screenShow,
+  #lastResult {
+    width: 70%;
+    font-size: 20px;
+    height: 4vh;
+  }
+  button {
+    height: 8vh;
+  }  
+}
+@media all and (max-width: 450px) {
+  .container {
+    width: 69vh
+      padding: 10px 0;
+  }
+  button {
+    font-size: 20px;
+    width: 29%;
+  }
+  #screen {
+    height: 6vh;
+    font-size: 20px;
+  }
+  #screenShow,
+  #lastResult {
+    font-size: 17px;
+    height: 4vh;
+  }
+  button {
+    height: 6vh;
+  }  
 }
