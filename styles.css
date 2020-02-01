@@ -1,6 +1,7 @@
 body {
   width: 100%;
   background: silver;
+  font-size: 20px;
 }
 .container {
   width: 60%;
