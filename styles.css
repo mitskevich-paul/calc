@@ -65,8 +65,8 @@ button:active {
 }
 @media all and (max-width: 1000px) {
   .container {
-    width: 80vh
-      padding: 10px 0;
+    height: 80vh;
+    padding: 10px 0;
   }
   button {
     font-size: 30px;
@@ -78,6 +78,7 @@ button:active {
   }
   #screenShow,
   #lastResult {
+    float: left;
     width: 70%;
     font-size: 20px;
     height: 4vh;
@@ -88,7 +89,8 @@ button:active {
 }
 @media all and (max-width: 450px) {
   .container {
-    width: 69vh;
+    width: 90%;
+    height: 69vh;
     padding: 10px 0;
   }
   button {
