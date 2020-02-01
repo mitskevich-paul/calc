@@ -101,6 +101,7 @@ button:active {
   }
   #screenShow,
   #lastResult {
+    with: 80%;
     font-size: 17px;
     height: 4vh;
   }
