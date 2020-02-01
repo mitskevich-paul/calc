@@ -1,1 +1,56 @@
-
+body {
+  width: 100%;
+  background: silver;
+}
+.container {
+  width: 60%;
+  border: solid 2px black;
+  box-sizing: border-box;
+  display: block;
+  margin: 50px auto;
+}
+#screen {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  height: 50px;
+}
+#screenShow {
+  display: block;
+  width: 30%;
+  margin-left: 1%;
+  float: left;
+}
+#screen1,
+#screen2 {
+  display: none;
+}
+#lastResult {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+  height: 20px;
+}
+.buttons {
+width: 97%;
+display: block;
+margin: 0 auto;
+}
+button {
+  margin: 1px;
+  width: 31%;
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 0, 0);
+  background: rgb(2, 0, 36);
+background: -webkit-linear-gradient(left, rgba(2, 0, 36, 0.3) 0%, rgba(9, 9, 121, 0.3) 46%, rgba(9, 13, 123, 0.3) 47%, rgba(0, 212, 255, 1) 100%);
+background: -moz-linear-gradient(left, rgba(2, 0, 36, 0.3) 0%, rgba(9, 9, 121, 0.3) 46%, rgba(9, 13, 123, 0.3) 47%, rgba(0, 212, 255, 1) 100%);
+background: -o-linear-gradient(left, rgba(2, 0, 36, 0.3) 0%, rgba(9, 9, 121, 0.3) 46%, rgba(9, 13, 123, 0.3) 47%, rgba(0, 212, 255, 1) 100%);
+background: linear-gradient(to right, rgba(2, 0, 36, 0.3) 0%, rgba(9, 9, 121, 0.3) 46%, rgba(9, 13, 123, 0.3) 47%, rgba(0, 212, 255, 1) 100%);
+}
+button:hover {
+  border: 2px solid blue;
+  box-sizing: border-box;
+}
+button:active {
+  transform: scale(0.95);
+}
