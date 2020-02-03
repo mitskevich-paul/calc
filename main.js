@@ -227,17 +227,17 @@ buttonRav.onclick = (c) => {
   c = (((+a) * (+b)) / 100);
   }
   document.getElementById('lastResult').value = 'last result: ' + c;
-	document.getElementById('screen').value = '';
-	document.getElementById('screen1').value = '';
-	document.getElementById('screenShow').value = '';
-	document.getElementById('buttonDot').disabled = false;
-  document.getElementById('buttonPlus').disabled = false;
-  document.getElementById('buttonMinus').disabled = false;
-  document.getElementById('buttonMultiply').disabled = false;
-  document.getElementById('buttonDivision').disabled = false;
-  document.getElementById('buttonsqrt').disabled = false;
-  document.getElementById('buttoncbrt').disabled = false;
-  document.getElementById('buttonPow').disabled = false;
-  document.getElementById('buttonPro').disabled = false;
+document.getElementById('screen').value = '';
+document.getElementById('screen1').value = '';
+document.getElementById('screenShow').value = '';
+document.getElementById('buttonDot').disabled = false;
+document.getElementById('buttonPlus').disabled = false;
+document.getElementById('buttonMinus').disabled = false;
+document.getElementById('buttonMultiply').disabled = false;
+document.getElementById('buttonDivision').disabled = false;
+document.getElementById('buttonsqrt').disabled = false;
+document.getElementById('buttoncbrt').disabled = false;
+document.getElementById('buttonPow').disabled = false;
+document.getElementById('buttonPro').disabled = false;
 }
 
